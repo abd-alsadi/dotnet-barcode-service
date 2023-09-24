@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "be09d375-91e5-41b5-a396-248e22238634",
+		"name": "KmnlkBarcodeApiCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "convert text to barcode image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:58663/api/v1/Barcode/GetBarcode?text=12345566&withText=true&type=0&filehhhname=name&ext=png",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58663",
+					"path": [
+						"api",
+						"v1",
+						"Barcode",
+						"GetBarcode"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "12345566"
+						},
+						{
+							"key": "withText",
+							"value": "true"
+						},
+						{
+							"key": "type",
+							"value": "0"
+						},
+						{
+							"key": "filehhhname",
+							"value": "name"
+						},
+						{
+							"key": "ext",
+							"value": "png"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "extract text from barcode image",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": "/C:/Users/Tech/Downloads/barcode (3).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:58663/api/v1/Barcode/GetText?type=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58663",
+					"path": [
+						"api",
+						"v1",
+						"Barcode",
+						"GetText"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

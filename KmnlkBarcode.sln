@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkBarcodeApi", "KmnlkBarcodeApi\KmnlkBarcodeApi.csproj", "{6F65FEE4-ED34-43A9-A737-92913125CCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkBarcodeDll", "KmnlkBarcodeDll\KmnlkBarcodeDll.csproj", "{42B40891-F6AE-46D0-A085-813435F02A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{EAF767C4-4FD7-428C-AF1B-214B90A9D494}"
+	ProjectSection(SolutionItems) = preProject
+		notes.txt = notes.txt
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkBarcode.Tests", "KmnlkBarcode.Tests\KmnlkBarcode.Tests.csproj", "{6B9618A4-578B-4F7E-8BE8-8F054A65058B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest", "MyTest\MyTest.csproj", "{DEEE7766-5714-41AC-98F5-D054BE2A5D01}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "KmnlkBarcodeApiSetup", "KmnlkBarcodeApiSetup\KmnlkBarcodeApiSetup.aiproj", "{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{08C2D117-D052-4CF6-A80B-B919066965E1}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\KmnlkCommon.dll = Dlls\KmnlkCommon.dll
+		Dlls\Zen.Barcode.Core.dll = Dlls\Zen.Barcode.Core.dll
+		Dlls\zxing.dll = Dlls\zxing.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.All|Any CPU.Build.0 = Release|Any CPU
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F65FEE4-ED34-43A9-A737-92913125CCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.All|Any CPU.Build.0 = Release|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B40891-F6AE-46D0-A085-813435F02A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.All|Any CPU.Build.0 = Release|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9618A4-578B-4F7E-8BE8-8F054A65058B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.All|Any CPU.Build.0 = Release|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEE7766-5714-41AC-98F5-D054BE2A5D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.All|Any CPU.ActiveCfg = DefaultBuild
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.All|Any CPU.Build.0 = DefaultBuild
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.Debug|Any CPU.Build.0 = DefaultBuild
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{DD6A8B4C-35B8-4CF0-9849-6552A9CB124C}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

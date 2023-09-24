@@ -1,0 +1,7 @@
+1- convert text to image barcode
+2- convert image barcode to text
+3- convert text to image QR
+4- convert image QR to text
+
+zen.barcode
+ZXing.net

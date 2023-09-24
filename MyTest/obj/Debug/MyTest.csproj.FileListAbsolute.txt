@@ -1,0 +1,14 @@
+S:\LocalPro\KmnlkBarcode\MyTest\obj\Debug\MyTest.csprojResolveAssemblyReference.cache
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\MyTest.exe.config
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\MyTest.exe
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\MyTest.pdb
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\KmnlkBarcodeDll.dll
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\Zen.Barcode.Core.dll
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\zxing.dll
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\KmnlkBarcodeDll.pdb
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\zxing.pdb
+S:\LocalPro\KmnlkBarcode\MyTest\bin\Debug\zxing.xml
+S:\LocalPro\KmnlkBarcode\MyTest\obj\Debug\MyTest.exe
+S:\LocalPro\KmnlkBarcode\MyTest\obj\Debug\MyTest.pdb

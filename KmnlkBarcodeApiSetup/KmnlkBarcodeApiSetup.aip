@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="16.5" version="16.5" Modules="simple" RootPath="." Language="en" Id="{33DEDE3E-EF74-401B-8B3F-A7FCABBDF270}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.pdb" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Api.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApiGroup.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config" Value="..\KmnlkBarcodeApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config_1" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CollectionModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ComplexTypeModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DictionaryModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EnumTypeModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Error.cshtml" Value="..\KmnlkBarcodeApi\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Global.asax" Value="..\KmnlkBarcodeApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HelpPage.css" Value="..\KmnlkBarcodeApi\Areas\HelpPage"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HelpPageApiModel.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ImageSample.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Index.cshtml" Value="..\KmnlkBarcodeApi\Views\Home"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Index.cshtml_1" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_InvalidSample.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KeyValuePairModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApi.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApi.pdb" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json" Value="..\KmnlkBarcodeApi\Docs\collections"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeDll.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeDll.pdb" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_KmnlkCommon.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.DependencyCollector.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Web.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.WindowsServer.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.ApplicationInsights.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CSharp.Core.targets" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualBasic.Core.targets" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Web.Infrastructure.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ModelDescriptionLink.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Ninject.Extensions.ChildKernel.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Ninject.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Parameters.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ResourceModel.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Samples.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SimpleTypeModelDescription.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Site.css" Value="..\KmnlkBarcodeApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.AppContext.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Collections.Immutable.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.StackTrace.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.Primitives.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Net.Http.Formatting.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Reflection.Metadata.dll" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Helpers.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Http.WebHost.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Http.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Mvc.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Optimization.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.Razor.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Deployment.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Razor.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TextSample.cshtml" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Help\DisplayTemplates"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe.config" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config" Value="..\KmnlkBarcodeApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config_1" Value="..\KmnlkBarcodeApi\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Web.config_2" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WebApiContrib.IoC.Ninject.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WebGrease.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Zen.Barcode.Core.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__Layout.cshtml" Value="..\KmnlkBarcodeApi\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__Layout.cshtml_1" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views\Shared"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml" Value="..\KmnlkBarcodeApi\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml_1" Value="..\KmnlkBarcodeApi\Areas\HelpPage\Views"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.css" Value="..\KmnlkBarcodeApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.min.css" Value="..\KmnlkBarcodeApi\Content"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_bootstrap.min.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_config.xml" Value="..\KmnlkBarcodeApi\Settings"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.exe" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.exe.config" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csc.rsp" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csi.exe" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_csi.rsp" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_favicon.ico" Value="..\KmnlkBarcodeApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.eot" Value="..\KmnlkBarcodeApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.svg" Value="..\KmnlkBarcodeApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.ttf" Value="..\KmnlkBarcodeApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.woff" Value="..\KmnlkBarcodeApi\fonts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.map" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_modernizr2.6.2.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_packages.config" Value="..\KmnlkBarcodeApi"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_respond.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_respond.min.js" Value="..\KmnlkBarcodeApi\Scripts"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.exe" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.exe.config" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_vbc.rsp" Value="..\KmnlkBarcodeApi\bin\roslyn"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_zxing.dll" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_zxing.pdb" Value="..\KmnlkBarcodeApi\bin"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll" Value="Antlr3.Runtime.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb" Value="Antlr3.Runtime.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml" Value="Api.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml" Value="ApiGroup.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config" Value="ApplicationInsights.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1" Value="ApplicationInsights.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml" Value="CollectionModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml" Value="ComplexTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml" Value="DictionaryModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml" Value="EnumTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml" Value="Error.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Global.asax" Value="Global.asax"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css" Value="HelpPage.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml" Value="HelpPageApiModel.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml" Value="ImageSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml" Value="Index.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1" Value="Index.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml" Value="InvalidSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml" Value="KeyValuePairModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.dll" Value="KmnlkBarcodeApi.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.pdb" Value="KmnlkBarcodeApi.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json" Value="KmnlkBarcodeApiCollection.postman_collection.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.dll" Value="KmnlkBarcodeDll.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.pdb" Value="KmnlkBarcodeDll.pdb"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll" Value="KmnlkCommon.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Value="Microsoft.AI.Agent.Intercept.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll" Value="Microsoft.AI.DependencyCollector.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Value="Microsoft.AI.PerfCounterCollector.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Value="Microsoft.AI.ServerTelemetryChannel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll" Value="Microsoft.AI.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll" Value="Microsoft.AI.WindowsServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll" Value="Microsoft.ApplicationInsights.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Value="Microsoft.Build.Tasks.CodeAnalysis.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets" Value="Microsoft.CSharp.Core.targets"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Value="Microsoft.CodeAnalysis.CSharp.Scripting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Value="Microsoft.CodeAnalysis.CSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Value="Microsoft.CodeAnalysis.Scripting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Value="Microsoft.CodeAnalysis.VisualBasic.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll" Value="Microsoft.CodeAnalysis.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Value="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Value="Microsoft.DiaSymReader.Native.amd64.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Value="Microsoft.DiaSymReader.Native.x86.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets" Value="Microsoft.VisualBasic.Core.targets"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll" Value="Microsoft.Web.Infrastructure.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml" Value="ModelDescriptionLink.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll" Value="Ninject.Extensions.ChildKernel.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll" Value="Ninject.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml" Value="Parameters.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml" Value="ResourceModel.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml" Value="Samples.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml" Value="SimpleTypeModelDescription.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Site.css" Value="Site.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll" Value="System.AppContext.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll" Value="System.Collections.Immutable.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll" Value="System.Diagnostics.StackTrace.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll" Value="System.IO.FileSystem.Primitives.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll" Value="System.IO.FileSystem.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll" Value="System.Net.Http.Formatting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll" Value="System.Reflection.Metadata.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll" Value="System.Web.Helpers.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll" Value="System.Web.Http.WebHost.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll" Value="System.Web.Http.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll" Value="System.Web.Mvc.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll" Value="System.Web.Optimization.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll" Value="System.Web.Razor.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll" Value="System.Web.WebPages.Deployment.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll" Value="System.Web.WebPages.Razor.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll" Value="System.Web.WebPages.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml" Value="TextSample.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe" Value="VBCSCompiler.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config" Value="VBCSCompiler.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config_1" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Web.config_2" Value="Web.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll" Value="WebApiContrib.IoC.Ninject.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll" Value="WebGrease.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Zen.Barcode.Core.dll" Value="Zen.Barcode.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml" Value="_Layout.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1" Value="_Layout.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml" Value="_ViewStart.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1" Value="_ViewStart.cshtml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css" Value="bootstrap.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js" Value="bootstrap.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css" Value="bootstrap.min.css"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js" Value="bootstrap.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_config.xml" Value="config.xml"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.exe" Value="csc.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config" Value="csc.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csc.rsp" Value="csc.rsp"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csi.exe" Value="csi.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_csi.rsp" Value="csi.rsp"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_favicon.ico" Value="favicon.ico"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot" Value="glyphicons-halflings-regular.eot"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg" Value="glyphicons-halflings-regular.svg"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf" Value="glyphicons-halflings-regular.ttf"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff" Value="glyphicons-halflings-regular.woff"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js" Value="jquery-1.10.2.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js" Value="jquery-1.10.2.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map" Value="jquery-1.10.2.min.map"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js" Value="modernizr-2.6.2.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_packages.config" Value="packages.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_respond.js" Value="respond.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_respond.min.js" Value="respond.min.js"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.exe" Value="vbc.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config" Value="vbc.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp" Value="vbc.rsp"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_zxing.dll" Value="zxing.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_zxing.pdb" Value="zxing.pdb"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="Manufacturer" Value="Kmnlk"/>
+    <ROW Property="ProductCode" Value="1033:{A0C3E873-73A2-42F5-918B-D48959FDCEE1} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="KmnlkBarcodeApi"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{633BC227-6F44-4152-A022-46302DE9C8E7}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Areas_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Areas"/>
+    <ROW Directory="Content_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Content"/>
+    <ROW Directory="DisplayTemplates_Dir" Directory_Parent="Help_Dir" DefaultDir="DISPLA~1|DisplayTemplates"/>
+    <ROW Directory="Docs_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Docs"/>
+    <ROW Directory="HelpPage_Dir" Directory_Parent="Areas_Dir" DefaultDir="HelpPage"/>
+    <ROW Directory="Help_Dir" Directory_Parent="Views_1_Dir" DefaultDir="Help"/>
+    <ROW Directory="Home_Dir" Directory_Parent="Views_Dir" DefaultDir="Home"/>
+    <ROW Directory="KmnlkBarcodeApi_Dir" Directory_Parent="APPDIR" DefaultDir="KMNLKB~1|KmnlkBarcodeApi"/>
+    <ROW Directory="Scripts_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Scripts"/>
+    <ROW Directory="Settings_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Settings"/>
+    <ROW Directory="Shared_1_Dir" Directory_Parent="Views_1_Dir" DefaultDir="Shared"/>
+    <ROW Directory="Shared_Dir" Directory_Parent="Views_Dir" DefaultDir="Shared"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="Views_1_Dir" Directory_Parent="HelpPage_Dir" DefaultDir="Views"/>
+    <ROW Directory="Views_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="Views"/>
+    <ROW Directory="bin_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="bin"/>
+    <ROW Directory="collections_Dir" Directory_Parent="Docs_Dir" DefaultDir="COLLEC~1|collections"/>
+    <ROW Directory="fonts_Dir" Directory_Parent="KmnlkBarcodeApi_Dir" DefaultDir="fonts"/>
+    <ROW Directory="roslyn_Dir" Directory_Parent="bin_Dir" DefaultDir="roslyn"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{1DDB5917-A0A7-471F-A9CE-9E738F99F692}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput" ComponentId="{141435F4-BA95-42CE-B2B3-094B87FC0C28}" Directory_="KmnlkBarcodeApi_Dir" Attributes="0" KeyPath="Web.config" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage" ComponentId="{A993565A-9482-4B54-9379-24676FAFE8C2}" Directory_="HelpPage_Dir" Attributes="0" KeyPath="HelpPage.css" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views" ComponentId="{73549803-75A7-48BC-8B43-A151B0077289}" Directory_="Views_1_Dir" Attributes="0" KeyPath="_ViewStart.cshtml_1" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help" ComponentId="{FEB12C09-ED7E-4AC0-9DEE-EBBE0DE0CDA3}" Directory_="Help_Dir" Attributes="0" KeyPath="Api.cshtml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" ComponentId="{718106CC-44E2-48AC-B313-ACA0DE07ECCB}" Directory_="DisplayTemplates_Dir" Attributes="0" KeyPath="ApiGroup.cshtml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Shared" ComponentId="{0D05CB88-3871-492D-8085-B1EBDBAC05DD}" Directory_="Shared_1_Dir" Attributes="0" KeyPath="_Layout.cshtml_1" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Content" ComponentId="{73D3AC17-33C6-4D27-8C44-91575C7BFC67}" Directory_="Content_Dir" Attributes="0" KeyPath="bootstrap.css" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Docs_collections" ComponentId="{89708D86-F24F-454A-A05B-6EAEDFF455D4}" Directory_="collections_Dir" Attributes="0" KeyPath="KmnlkBarcodeApiCollection.postman_collection.json" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Scripts" ComponentId="{29BF9DF4-1248-47F8-8F24-B48C45D90323}" Directory_="Scripts_Dir" Attributes="0" KeyPath="bootstrap.js" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Settings" ComponentId="{749E169A-8C6C-4B54-BD3C-3EB7145E333C}" Directory_="Settings_Dir" Attributes="0" KeyPath="config.xml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Views" ComponentId="{0F5AD855-F3AB-4B1D-B32D-99082EA66EE8}" Directory_="Views_Dir" Attributes="0" KeyPath="_ViewStart.cshtml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Views_Home" ComponentId="{6A59B4C7-36B8-4FC7-AEA5-F34F0CD6EC6A}" Directory_="Home_Dir" Attributes="0" KeyPath="Index.cshtml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_Views_Shared" ComponentId="{6B9B254A-1B13-4DAE-9723-E8740DDA929C}" Directory_="Shared_Dir" Attributes="0" KeyPath="_Layout.cshtml" Type="0"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_bin" ComponentId="{2D997579-17B7-4AA5-B70D-637775CE349C}" Directory_="bin_Dir" Attributes="0" KeyPath="zxing.dll"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" ComponentId="{280F2C66-04BF-4C75-A494-C5B5BEED3A66}" Directory_="roslyn_Dir" Attributes="0" KeyPath="VBCSCompiler.exe"/>
+    <ROW Component="KmnlkBarcodeApi_WebsiteOutput_fonts" ComponentId="{ABDB2738-DE6E-46F4-A22B-019E34BE60B1}" Directory_="fonts_Dir" Attributes="0" KeyPath="glyphiconshalflingsregular.eot" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{3976D7CB-D2F1-4F8D-A830-20E8E61A93D1}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Web.config" Component_="KmnlkBarcodeApi_WebsiteOutput" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config&gt;" SelfReg="false"/>
+    <ROW File="ApplicationInsights.config" Component_="KmnlkBarcodeApi_WebsiteOutput" FileName="APPLIC~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApplicationInsights.config&gt;" SelfReg="false"/>
+    <ROW File="favicon.ico" Component_="KmnlkBarcodeApi_WebsiteOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_favicon.ico]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_favicon.ico&gt;" SelfReg="false"/>
+    <ROW File="Global.asax" Component_="KmnlkBarcodeApi_WebsiteOutput" FileName="GLOBAL~2.ASA|[|AI_PROPPATH_FILENAME_PERBUILD_Global.asax]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Global.asax&gt;" SelfReg="false"/>
+    <ROW File="packages.config" Component_="KmnlkBarcodeApi_WebsiteOutput" FileName="PACKAG~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_packages.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_packages.config&gt;" SelfReg="false"/>
+    <ROW File="Antlr3.Runtime.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="ANTLR3~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Antlr3.Runtime.dll&gt;" SelfReg="false"/>
+    <ROW File="Antlr3.Runtime.pdb" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="ANTLR3~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Antlr3.Runtime.pdb&gt;" SelfReg="false"/>
+    <ROW File="ApplicationInsights.config_1" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="APPLIC~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApplicationInsights.config_1&gt;" SelfReg="false"/>
+    <ROW File="KmnlkBarcodeApi.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="KMNLKB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkBarcodeApi.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkBarcodeApi.pdb" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="KMNLKB~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkBarcodeApi.pdb&gt;" SelfReg="false"/>
+    <ROW File="KmnlkBarcodeDll.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="KMNLKB~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkBarcodeDll.dll&gt;" SelfReg="false"/>
+    <ROW File="KmnlkBarcodeDll.pdb" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="KMNLKB~3.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkBarcodeDll.pdb&gt;" SelfReg="false"/>
+    <ROW File="KmnlkCommon.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="KMNLKC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkCommon.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.Agent.Intercept.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.Agent.Intercept.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.DependencyCollector.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.DependencyCollector.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.PerfCounterCollector.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.PerfCounterCollector.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.ServerTelemetryChannel.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.Web.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.Web.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AI.WindowsServer.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AI.WindowsServer.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.ApplicationInsights.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.ApplicationInsights.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Web.Infrastructure.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Web.Infrastructure.dll&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="Ninject.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Ninject.dll&gt;" SelfReg="false"/>
+    <ROW File="Ninject.Extensions.ChildKernel.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="NINJEC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Ninject.Extensions.ChildKernel.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Net.Http.Formatting.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Net.Http.Formatting.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Helpers.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Helpers.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Http.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Http.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Http.WebHost.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Http.WebHost.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Mvc.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Mvc.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Optimization.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Optimization.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.Razor.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.Razor.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.Deployment.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTEM~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.Deployment.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTE~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Web.WebPages.Razor.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="SYSTE~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Web.WebPages.Razor.dll&gt;" SelfReg="false"/>
+    <ROW File="WebApiContrib.IoC.Ninject.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="WEBAPI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WebApiContrib.IoC.Ninject.dll&gt;" SelfReg="false"/>
+    <ROW File="WebGrease.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="WEBGRE~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WebGrease.dll&gt;" SelfReg="false"/>
+    <ROW File="Zen.Barcode.Core.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="ZENBAR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Zen.Barcode.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Zen.Barcode.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="zxing.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_zxing.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_zxing.dll&gt;" SelfReg="false"/>
+    <ROW File="zxing.pdb" Component_="KmnlkBarcodeApi_WebsiteOutput_bin" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_zxing.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_zxing.pdb&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.css" Component_="KmnlkBarcodeApi_WebsiteOutput_Content" FileName="BOOTST~2.CSS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.css&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.min.css" Component_="KmnlkBarcodeApi_WebsiteOutput_Content" FileName="BOOTST~3.CSS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.min.css&gt;" SelfReg="false"/>
+    <ROW File="Site.css" Component_="KmnlkBarcodeApi_WebsiteOutput_Content" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Site.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Site.css&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.eot" Component_="KmnlkBarcodeApi_WebsiteOutput_fonts" FileName="GLYPHI~2.EOT|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.eot&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.svg" Component_="KmnlkBarcodeApi_WebsiteOutput_fonts" FileName="GLYPHI~2.SVG|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.svg&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.ttf" Component_="KmnlkBarcodeApi_WebsiteOutput_fonts" FileName="GLYPHI~2.TTF|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.ttf&gt;" SelfReg="false"/>
+    <ROW File="glyphiconshalflingsregular.woff" Component_="KmnlkBarcodeApi_WebsiteOutput_fonts" FileName="GLYPHI~2.WOF|[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_glyphiconshalflingsregular.woff&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="BOOTST~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.js&gt;" SelfReg="false"/>
+    <ROW File="bootstrap.min.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="BOOTST~3.JS|[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_bootstrap.min.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="JQUERY~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.min.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="JQUERY~3.JS|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.min.js&gt;" SelfReg="false"/>
+    <ROW File="jquery1.10.2.min.map" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="JQUERY~2.MAP|[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_jquery1.10.2.min.map&gt;" SelfReg="false"/>
+    <ROW File="modernizr2.6.2.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="MODERN~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_modernizr2.6.2.js&gt;" SelfReg="false"/>
+    <ROW File="respond.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_respond.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_respond.js&gt;" SelfReg="false"/>
+    <ROW File="respond.min.js" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts" FileName="RESPON~2.JS|[|AI_PROPPATH_FILENAME_PERBUILD_respond.min.js]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_respond.min.js&gt;" SelfReg="false"/>
+    <ROW File="config.xml" Component_="KmnlkBarcodeApi_WebsiteOutput_Settings" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_config.xml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_config.xml&gt;" SelfReg="false"/>
+    <ROW File="_ViewStart.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Views" FileName="_VIEWS~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__ViewStart.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Web.config_1" Component_="KmnlkBarcodeApi_WebsiteOutput_Views" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config_1&gt;" SelfReg="false"/>
+    <ROW File="HelpPage.css" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HelpPage.css&gt;" SelfReg="false"/>
+    <ROW File="csc.exe" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="csc.exe.config" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="CSCEXE~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.exe.config&gt;" SelfReg="false"/>
+    <ROW File="csc.rsp" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csc.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csc.rsp&gt;" SelfReg="false"/>
+    <ROW File="csi.exe" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csi.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csi.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="csi.rsp" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_csi.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_csi.rsp&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Build.Tasks.CodeAnalysis.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.CSharp.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.CSharp.Scripting.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.Scripting.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CodeAnalysis.VisualBasic.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.CSharp.Core.targets" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~2.TAR|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.CSharp.Core.targets&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.DiaSymReader.Native.amd64.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.DiaSymReader.Native.x86.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.VisualBasic.Core.targets" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="MICROS~3.TAR|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.VisualBasic.Core.targets&gt;" SelfReg="false"/>
+    <ROW File="System.AppContext.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.AppContext.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Collections.Immutable.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Collections.Immutable.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.StackTrace.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.StackTrace.dll&gt;" SelfReg="false"/>
+    <ROW File="System.IO.FileSystem.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IO.FileSystem.dll&gt;" SelfReg="false"/>
+    <ROW File="System.IO.FileSystem.Primitives.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IO.FileSystem.Primitives.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Reflection.Metadata.dll" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Reflection.Metadata.dll&gt;" SelfReg="false"/>
+    <ROW File="vbc.exe" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="vbc.exe.config" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="VBCEXE~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.exe.config&gt;" SelfReg="false"/>
+    <ROW File="vbc.rsp" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_vbc.rsp&gt;" SelfReg="false"/>
+    <ROW File="VBCSCompiler.exe" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="VBCSCO~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_VBCSCompiler.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="VBCSCompiler.exe.config" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn" FileName="VBCSCO~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_VBCSCompiler.exe.config&gt;" SelfReg="false"/>
+    <ROW File="KmnlkBarcodeApiCollection.postman_collection.json" Component_="KmnlkBarcodeApi_WebsiteOutput_Docs_collections" FileName="KMNLKB~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json&gt;" SelfReg="false"/>
+    <ROW File="Index.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Views_Home" FileName="INDEX~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Index.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_Layout.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Views_Shared" FileName="_LAYOU~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__Layout.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Error.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Views_Shared" FileName="ERROR~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Error.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_ViewStart.cshtml_1" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views" FileName="_VIEWS~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__ViewStart.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="Web.config_2" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Web.config_2&gt;" SelfReg="false"/>
+    <ROW File="Api.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="API~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Api.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Index.cshtml_1" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="INDEX~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Index.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="ResourceModel.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help" FileName="RESOUR~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ResourceModel.cshtml&gt;" SelfReg="false"/>
+    <ROW File="_Layout.cshtml_1" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Shared" FileName="_LAYOU~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD__Layout.cshtml_1&gt;" SelfReg="false"/>
+    <ROW File="ApiGroup.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="APIGRO~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ApiGroup.cshtml&gt;" SelfReg="false"/>
+    <ROW File="CollectionModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="COLLEC~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CollectionModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ComplexTypeModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="COMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ComplexTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="DictionaryModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="DICTIO~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DictionaryModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="EnumTypeModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="ENUMTY~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EnumTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="HelpPageApiModel.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="HELPPA~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HelpPageApiModel.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ImageSample.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="IMAGES~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ImageSample.cshtml&gt;" SelfReg="false"/>
+    <ROW File="InvalidSample.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="INVALI~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_InvalidSample.cshtml&gt;" SelfReg="false"/>
+    <ROW File="KeyValuePairModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="KEYVAL~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_KeyValuePairModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="ModelDescriptionLink.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="MODELD~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ModelDescriptionLink.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Parameters.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="PARAME~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Parameters.cshtml&gt;" SelfReg="false"/>
+    <ROW File="Samples.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="SAMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Samples.cshtml&gt;" SelfReg="false"/>
+    <ROW File="SimpleTypeModelDescription.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="SIMPLE~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SimpleTypeModelDescription.cshtml&gt;" SelfReg="false"/>
+    <ROW File="TextSample.cshtml" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates" FileName="TEXTSA~2.CSH|[|AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TextSample.cshtml&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Antlr3.Runtime.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Antlr3.Runtime.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_Antlr3.Runtime.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_Antlr3.Runtime.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Api.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Api.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Api.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApiGroup.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ApiGroup.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ApiGroup.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApplicationInsights.config" Path="[|AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config]\[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ApplicationInsights.config_1" Path="[|AI_PROPPATH_DIR_PERBUILD_ApplicationInsights.config_1]\[|AI_PROPPATH_FILENAME_PERBUILD_ApplicationInsights.config_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CollectionModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_CollectionModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_CollectionModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ComplexTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ComplexTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ComplexTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DictionaryModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_DictionaryModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_DictionaryModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EnumTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_EnumTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_EnumTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Error.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Error.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Error.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Global.asax" Path="[|AI_PROPPATH_DIR_PERBUILD_Global.asax]\[|AI_PROPPATH_FILENAME_PERBUILD_Global.asax]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HelpPage.css" Path="[|AI_PROPPATH_DIR_PERBUILD_HelpPage.css]\[|AI_PROPPATH_FILENAME_PERBUILD_HelpPage.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HelpPageApiModel.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_HelpPageApiModel.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_HelpPageApiModel.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ImageSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ImageSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ImageSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Index.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Index.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Index.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Index.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Index.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_InvalidSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_InvalidSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_InvalidSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KeyValuePairModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_KeyValuePairModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_KeyValuePairModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkBarcodeApi.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApi.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkBarcodeApi.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApi.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApi.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeApiCollection.postman_collection.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkBarcodeDll.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeDll.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkBarcodeDll.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkBarcodeDll.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkBarcodeDll.pdb]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_KmnlkCommon.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_KmnlkCommon.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_KmnlkCommon.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.Agent.Intercept.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Agent.Intercept.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Agent.Intercept.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.DependencyCollector.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.DependencyCollector.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.DependencyCollector.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.PerfCounterCollector.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.PerfCounterCollector.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.ServerTelemetryChannel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.Web.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.Web.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.Web.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AI.WindowsServer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AI.WindowsServer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AI.WindowsServer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.ApplicationInsights.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.ApplicationInsights.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.ApplicationInsights.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Build.Tasks.CodeAnalysis.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CSharp.Core.targets" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CSharp.Core.targets]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CSharp.Core.targets]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.Scripting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.CSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.Scripting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.VisualBasic.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeAnalysis.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeAnalysis.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeAnalysis.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.amd64.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.DiaSymReader.Native.x86.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.VisualBasic.Core.targets" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.VisualBasic.Core.targets]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.VisualBasic.Core.targets]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Web.Infrastructure.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Web.Infrastructure.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Web.Infrastructure.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ModelDescriptionLink.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ModelDescriptionLink.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ModelDescriptionLink.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Ninject.Extensions.ChildKernel.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Ninject.Extensions.ChildKernel.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.Extensions.ChildKernel.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Ninject.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Ninject.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Ninject.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Parameters.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Parameters.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Parameters.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ResourceModel.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_ResourceModel.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_ResourceModel.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Samples.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_Samples.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_Samples.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SimpleTypeModelDescription.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_SimpleTypeModelDescription.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_SimpleTypeModelDescription.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Site.css" Path="[|AI_PROPPATH_DIR_PERBUILD_Site.css]\[|AI_PROPPATH_FILENAME_PERBUILD_Site.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.AppContext.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.AppContext.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.AppContext.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Collections.Immutable.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Collections.Immutable.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Collections.Immutable.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.StackTrace.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.StackTrace.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.StackTrace.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IO.FileSystem.Primitives.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.Primitives.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.Primitives.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IO.FileSystem.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IO.FileSystem.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IO.FileSystem.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Net.Http.Formatting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Net.Http.Formatting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Net.Http.Formatting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Reflection.Metadata.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Reflection.Metadata.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Reflection.Metadata.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Helpers.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Helpers.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Helpers.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Http.WebHost.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Http.WebHost.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.WebHost.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Http.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Http.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Http.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Mvc.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Mvc.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Mvc.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Optimization.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Optimization.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Optimization.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.Razor.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.Razor.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.Razor.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.Deployment.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Deployment.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Deployment.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.Razor.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.Razor.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.Razor.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Web.WebPages.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Web.WebPages.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Web.WebPages.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TextSample.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD_TextSample.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD_TextSample.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_VBCSCompiler.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_VBCSCompiler.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_VBCSCompiler.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_VBCSCompiler.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Web.config_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Web.config_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Web.config_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WebApiContrib.IoC.Ninject.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WebApiContrib.IoC.Ninject.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WebApiContrib.IoC.Ninject.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WebGrease.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WebGrease.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WebGrease.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Zen.Barcode.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Zen.Barcode.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Zen.Barcode.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__Layout.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD__Layout.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__Layout.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD__Layout.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD__Layout.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__ViewStart.cshtml" Path="[|AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml]\[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD__ViewStart.cshtml_1" Path="[|AI_PROPPATH_DIR_PERBUILD__ViewStart.cshtml_1]\[|AI_PROPPATH_FILENAME_PERBUILD__ViewStart.cshtml_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.css" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.css]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.js" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.js]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.min.css" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.min.css]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.css]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_bootstrap.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_bootstrap.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_bootstrap.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_config.xml" Path="[|AI_PROPPATH_DIR_PERBUILD_config.xml]\[|AI_PROPPATH_FILENAME_PERBUILD_config.xml]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csc.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_csc.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_csc.rsp]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csi.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_csi.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_csi.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_csi.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_csi.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_csi.rsp]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_favicon.ico" Path="[|AI_PROPPATH_DIR_PERBUILD_favicon.ico]\[|AI_PROPPATH_FILENAME_PERBUILD_favicon.ico]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.eot" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.eot]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.eot]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.svg" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.svg]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.svg]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.ttf" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.ttf]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.ttf]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_glyphiconshalflingsregular.woff" Path="[|AI_PROPPATH_DIR_PERBUILD_glyphiconshalflingsregular.woff]\[|AI_PROPPATH_FILENAME_PERBUILD_glyphiconshalflingsregular.woff]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.js" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.js]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_jquery1.10.2.min.map" Path="[|AI_PROPPATH_DIR_PERBUILD_jquery1.10.2.min.map]\[|AI_PROPPATH_FILENAME_PERBUILD_jquery1.10.2.min.map]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_modernizr2.6.2.js" Path="[|AI_PROPPATH_DIR_PERBUILD_modernizr2.6.2.js]\[|AI_PROPPATH_FILENAME_PERBUILD_modernizr2.6.2.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_packages.config" Path="[|AI_PROPPATH_DIR_PERBUILD_packages.config]\[|AI_PROPPATH_FILENAME_PERBUILD_packages.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_respond.js" Path="[|AI_PROPPATH_DIR_PERBUILD_respond.js]\[|AI_PROPPATH_FILENAME_PERBUILD_respond.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_respond.min.js" Path="[|AI_PROPPATH_DIR_PERBUILD_respond.min.js]\[|AI_PROPPATH_FILENAME_PERBUILD_respond.min.js]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_vbc.rsp" Path="[|AI_PROPPATH_DIR_PERBUILD_vbc.rsp]\[|AI_PROPPATH_FILENAME_PERBUILD_vbc.rsp]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_zxing.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_zxing.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_zxing.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_zxing.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_zxing.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_zxing.pdb]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_bin"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Content"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_fonts"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Scripts"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Settings"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Views"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_bin_roslyn"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Docs_collections"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Views_Home"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Views_Shared"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Shared"/>
+    <ROW Feature_="MainFeature" Component_="KmnlkBarcodeApi_WebsiteOutput_Areas_HelpPage_Views_Help_DisplayTemplates"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="PrimaryOutput" OutputFile="Web.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ApplicationInsights.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="favicon.ico"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Global.asax"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="packages.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Antlr3.Runtime.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Antlr3.Runtime.pdb"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ApplicationInsights.config_1"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkBarcodeApi.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkBarcodeApi.pdb"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkBarcodeDll.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkBarcodeDll.pdb"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkCommon.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.Agent.Intercept.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.DependencyCollector.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.PerfCounterCollector.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.ServerTelemetryChannel.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.Web.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.AI.WindowsServer.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.ApplicationInsights.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.Web.Infrastructure.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Ninject.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Ninject.Extensions.ChildKernel.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Net.Http.Formatting.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Helpers.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Http.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Http.WebHost.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Mvc.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Optimization.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.Razor.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.Deployment.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Web.WebPages.Razor.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="WebApiContrib.IoC.Ninject.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="WebGrease.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Zen.Barcode.Core.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="zxing.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="zxing.pdb"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.css"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.min.css"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Site.css"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.eot"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.svg"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.ttf"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="glyphiconshalflingsregular.woff"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="bootstrap.min.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.min.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="jquery1.10.2.min.map"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="modernizr2.6.2.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="respond.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="respond.min.js"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="config.xml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="_ViewStart.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Web.config_1"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="HelpPage.css"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="csc.exe"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="csc.exe.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="csc.rsp"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="csi.exe"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="csi.rsp"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.Build.Tasks.CodeAnalysis.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.CSharp.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.CSharp.Scripting.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.Scripting.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CodeAnalysis.VisualBasic.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.CSharp.Core.targets"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.DiaSymReader.Native.amd64.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.DiaSymReader.Native.x86.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Microsoft.VisualBasic.Core.targets"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.AppContext.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Collections.Immutable.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Diagnostics.StackTrace.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.IO.FileSystem.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.IO.FileSystem.Primitives.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="System.Reflection.Metadata.dll"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="vbc.exe"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="vbc.exe.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="vbc.rsp"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="VBCSCompiler.exe"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="VBCSCompiler.exe.config"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KmnlkBarcodeApiCollection.postman_collection.json"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Index.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="_Layout.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Error.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="_ViewStart.cshtml_1"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Web.config_2"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Api.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Index.cshtml_1"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ResourceModel.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="_Layout.cshtml_1"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ApiGroup.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="CollectionModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ComplexTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="DictionaryModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="EnumTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="HelpPageApiModel.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ImageSample.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="InvalidSample.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="KeyValuePairModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="ModelDescriptionLink.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Parameters.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="Samples.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="SimpleTypeModelDescription.cshtml"/>
+    <ROW ProjectId="{6f65fee4-ed34-43a9-a737-92913125ccde}" ProjectName="KmnlkBarcodeApi" OutputGroup="WebsiteOutput" OutputFile="TextSample.cshtml"/>
+  </COMPONENT>
+</DOCUMENT>

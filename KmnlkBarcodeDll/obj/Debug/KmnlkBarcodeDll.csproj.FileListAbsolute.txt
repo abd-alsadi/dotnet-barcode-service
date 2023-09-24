@@ -1,0 +1,13 @@
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\KmnlkBarcodeDll.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\KmnlkBarcodeDll.pdb
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\Zen.Barcode.Core.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.presentation.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.pdb
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.xml
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.presentation.pdb
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\bin\Debug\zxing.presentation.xml
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\obj\Debug\KmnlkBarcodeDll.dll
+S:\LocalPro\KmnlkBarcode\KmnlkBarcodeDll\obj\Debug\KmnlkBarcodeDll.pdb
